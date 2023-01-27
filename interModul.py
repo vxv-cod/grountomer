@@ -58,12 +58,12 @@ def GO(RowKey, columnKey, columnValue, YOOY, XOOX, lineEditEnd):
     #===============================================================================
     '''Находим индексы колонок'''
     indexColumnKey = index_search(columnKey, XOOX)
-    print(f"indexColumnKey = {indexColumnKey}")
+    # print(f"indexColumnKey = {indexColumnKey}")
     a1 = columnKey[indexColumnKey[0]]
     a2 = columnKey[indexColumnKey[1]]
 
-    print(f"dct[a1] = {dct[a1]}")
-    print(f"dct[a2] = {dct[a2]}")
+    # print(f"dct[a1] = {dct[a1]}")
+    # print(f"dct[a2] = {dct[a2]}")
 
     try:
         #===============================================================================
